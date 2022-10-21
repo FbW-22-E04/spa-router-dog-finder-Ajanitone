@@ -1,0 +1,48 @@
+.main {
+  height: 100vh;
+  background: #c3cecd;
+  background: -moz-linear-gradient(
+    45deg,
+    #c3cecd 0%,
+    #96a495 50%,
+    #c4c5b4 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #c3cecd 0%,
+    #96a495 50%,
+    #c4c5b4 100%
+  );
+  background: linear-gradient(45deg, #d6fffc 0%, #90ae8e 50%, #fbffc3 100%);
+}
+
+.pic {
+  display: flex;
+  justify-content: center;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: chocolate;
+}
+.motto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+img {
+  margin-top: 3rem;
+}
+button {
+  border: none;
+  width: 200px;
+  border-radius: 1rem;
+  padding: 5px;
+  font-size: 1rem;
+}
